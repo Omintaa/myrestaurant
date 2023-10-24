@@ -90,7 +90,7 @@ background-color: black;
 .home .content{
    
     margin-left:100px;
-    margin-bottom:20px;
+    margin-bottom:60px;
     color:white;
    
 }
@@ -355,7 +355,7 @@ background-color: black;
     background:rgba(255, 255, 255, 0.347);
     width:100px;
     height:.9px;
-    margin-left:180px;
+    margin-left:190px;
     margin-top:-10px;  
 }
 .specials .intro li{
@@ -714,7 +714,8 @@ font-weight:lighter;
 /* contact */
 .contact{
     background-color:black;
-    padding:60px 0px 50px 100px;
+    padding:60px 0px 90px 100px;
+    border-bottom:1px solid rgba(78, 74, 74, 0.774);
 }
 
 .contact h3{
@@ -726,7 +727,7 @@ font-weight:lighter;
 .contact h1{
     color:rgb(205, 164, 94);
     font-size: 40px;
-    margin:20px 0px 0px 0px;
+    margin:20px 0px 30px 0px;
     font-family: "Poppins", sans-serif;
   
 }
@@ -740,3 +741,66 @@ font-weight:lighter;
     margin-top:-10px;  
 }
 
+.contact i.fa-solid, i.fa-regular, i.fa{
+    color:white;
+    font-size:20px;
+    background-color:rgb(205, 164, 94) ;
+    height: 40px;
+    width:40px;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact h2{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+    font-family:"Poppins", sans-serif;
+    margin:-39px 0px 5px 60px;
+}
+
+.contact h3{
+    color:rgba(255, 255, 255, 0.433);
+    margin:10px 0px 5px 60px;
+    font-weight: lighter;
+}
+
+.contact ul{
+    margin-bottom:40px;
+}
+
+
+.contact .form .grid-container{
+    margin:-470px 0px 0px 350px;
+    display:grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+#subgrid-item{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width:94%;
+}
+.contact .form .grid-item input{
+    width:90%;
+    height:40px;
+    background-color:black;
+    color:white;
+    text-indent:10px;
+    outline:2px solid rgba(233, 204, 155, 0.382);
+
+}
+
+.contact #message{
+    width:90%;
+    height:170px;
+    background-color: black;
+    color:white;
+    outline:2px solid rgba(233, 204, 155, 0.382); 
+    text-indent:10px;
+}
+
+.contact .form .defaultbtn{
+    margin:20px 0px 0px 240px;
+}
