@@ -166,7 +166,7 @@ background-color: black;
 .about .content li .fa.fa-check-circle{
     color:rgb(205, 164, 94);
 }
-
+ /* whyus section */
 .whyus{
     padding-bottom:60px;
     margin-left:100px;
@@ -195,9 +195,7 @@ background-color: black;
 .reasons{
     display:flex;
    justify-content: space-evenly;
-   margin-top:30px;
-   margin-left:-50px;
-   margin-right:30px;
+   margin:30px 40px 0px -50px;
 }
 .box{
     height:290px;
@@ -439,7 +437,7 @@ font-weight:lighter;
 }
 .reservation{
     padding-bottom:60px;
-    padding:10px 100px 20px 100px;
+    padding:10px 60px 20px 100px;
   
 }
 
@@ -490,7 +488,7 @@ font-weight:lighter;
 #messagebox {
    background:black;
     outline:2px solid rgba(234, 199, 138, 0.407); 
-   width:97%;
+   width:95.5%;
     height:120px;
      margin-top:40px;
      color:white; 
@@ -506,12 +504,14 @@ font-weight:lighter;
     outline:none;
     margin:30px 0px 20px 350px ;
 }
- .defaultbtn:hover{
+ .reservation .defaultbtn:hover{
     color:white;
     background-color:rgb(205, 164, 94);
     outline:none;
 }
 
+
+/* testimonials */
 .testimonials{
     background-color: rgba(35, 33, 33, 0.921);
     padding:60px 0px 50px 100px;
@@ -538,10 +538,7 @@ font-weight:lighter;
     margin-left:130px;
     margin-top:-10px;  
 }
-/* .testimonials .swiper{
-    display:flex;
 
-} */
 .testimonials .testimony{
     background-color: rgb(38, 35, 38);
     border-radius:5px;
@@ -685,9 +682,6 @@ font-weight:lighter;
     height:250px;
     margin-top:-20px;
 }
-/* .chefs .chefpicture:hover, .chefprofile{
-   
-} */
 
 .chefs .chefname, .chefjob{
     text-align:center;
@@ -714,14 +708,13 @@ font-weight:lighter;
 /* contact */
 .contact{
     background-color:black;
-    padding:60px 0px 90px 100px;
+    padding:60px 15px 90px 100px;
     border-bottom:1px solid rgba(78, 74, 74, 0.774);
 }
 
 .contact h3{
     color:rgba(255, 255, 255, 0.726);
     font-size:15px;
-    /* margin-left:100px; */
     font-family: "Poppins", sans-serif;
 }
 .contact h1{
@@ -737,11 +730,11 @@ font-weight:lighter;
     background:rgba(255, 255, 255, 0.347);
     width:100px;
     height:.9px;
-    margin-left:90px;
+    margin-left:80px;
     margin-top:-10px;  
 }
 
-.contact i.fa-solid, i.fa-regular, i.fa{
+.contact .info i.fa-solid, .info i.fa-regular,.info i.fa{
     color:white;
     font-size:20px;
     background-color:rgb(205, 164, 94) ;
@@ -760,13 +753,13 @@ font-weight:lighter;
     margin:-39px 0px 5px 60px;
 }
 
-.contact h3{
+.contact .info h3{
     color:rgba(255, 255, 255, 0.433);
     margin:10px 0px 5px 60px;
     font-weight: lighter;
 }
 
-.contact ul{
+.contact .info{
     margin-bottom:40px;
 }
 
@@ -803,4 +796,101 @@ font-weight:lighter;
 
 .contact .form .defaultbtn{
     margin:20px 0px 0px 240px;
+}
+
+
+
+/* endsection */
+
+.endsection{
+    padding:10px 15px 30px 100px;
+    background-color: black;
+    color:white;
+    display:flex;
+    border-bottom:1px solid rgba(78, 74, 74, 0.774);
+}
+.endcontent{
+    margin:20px 50px 20px 0px;
+}
+
+
+.endcontent .socials{
+    font-size:20px;
+    display:flex;
+
+    
+}
+.socials i.fa-brands{
+    margin-right:5px;
+    background-color: rgba(60, 56, 56, 0.664);
+    width:40px;
+    height: 40px;
+    border-radius: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.socials i.fa-brands:hover{
+    background-color:rgb(205, 164, 94) ;
+}
+.endsection .endcontent .listitem i.fa{
+  
+    color:rgb(205, 164, 94) ;
+    font-size:10px;
+    margin-right:5px;
+}
+
+.endsection .endcontent li{
+    list-style-type: none;
+    margin-bottom:15px;
+
+}
+.endsection .subscribearea{
+    margin-top:20px;
+    background-color:rgba(45, 34, 34, 0.491);
+    border-radius: 30px;
+    outline: 1px solid rgba(255, 255, 255, 0.184);
+  
+}
+.endsection .subscribearea input{
+    background:none;
+    width:170px;
+    height:30px;
+    margin-left:10px;
+    color:white;
+    
+
+}
+.endsection .subscribearea .defaultbtn{
+    outline:none;
+    color:white;
+    background-color:rgb(205, 164, 94)   ;
+    width:150px;
+    height:40px; 
+}
+
+
+.endsection .defaultbtn:hover{
+    color:white;
+    background-color:rgb(223, 182, 112);
+    
+}
+
+/* copyright */
+footer{
+   color:white;
+   padding:40px;
+   text-align:center;
+
+}
+
+/* footer .copyrightdeets , .designer{
+     /* justify-content: center;
+    align-items: center; 
+  
+} */
+footer .designer span{
+    color:rgb(205, 164, 94)  ;
 }
